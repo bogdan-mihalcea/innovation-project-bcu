@@ -1,0 +1,18 @@
+/* Autocomplete styling */
+.pac-container {
+    background-color: #2e3141;
+}
+.pac-item {
+    border-top: 1px solid #5b6ba6;
+    font-size: 14px;
+    color: #5b6ba6;
+}
+.pac-item:hover {
+    background-color: #5b6ba6;
+}
+.pac-item-selected, .pac-item-selected:hover {
+    background-color: #2e3141;
+}
+.pac-item-query {
+    color: #fff;
+}

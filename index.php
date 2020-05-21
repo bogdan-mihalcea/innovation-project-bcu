@@ -10,7 +10,7 @@
 -->
 <html>
 	<head>
-		<title><?php echo $title;?> - Innovation Project</title>
+		<title><?php echo $title;?> - OpenNearMe</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -24,7 +24,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.php">Innovation Project</a></h1>
+						<h1><a href="index.php">OpenNearMe</a></h1>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -46,8 +46,8 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<div class="logo"><span class="icon fa-gem"></span></div>
-							<h2>This is Innovation Project</h2>
+							<div class="logo"><span class="icon fa-map"></span></div>
+							<h2>This is <font color="orange">OpenNearMe</font>!</h2>
 							<p>We want to help people in need during COVID-19 by providing easy access to information about local shops, pharmacies and supermarkets, as well as directions, open times and more!</p>
 						</div>
 					</section>
@@ -140,7 +140,7 @@
 								
 							</ul>
 							<ul class="copyright">
-								<li>&copy; <?php echo date("Y"); ?> - <a href="index.php">Innovation Project</a>. All rights reserved.</li><li>Project developed by Team A for <a href="https://bcu.ac.uk" target="_blank">Birmingham City University</a>.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; <?php echo date("Y"); ?> - <b><a href="index.php">OpenNearMe</a></b>. All rights reserved.</li><li>Project developed by <i><b>Team A</b></i> for <b><a href="https://bcu.ac.uk" target="_blank">Innovation Project 2020 @ BCU</a></b>.</li><li>Design: <b><a href="http://html5up.net">HTML5 UP</a></b>.</li>
 								<p></p>
 							</ul>
 						</div>

@@ -140,7 +140,7 @@
 								
 							</ul>
 							<ul class="copyright">
-								<li>&copy; <?php echo date("Y"); ?> - <b><a href="index.php">OpenNearMe</a></b>. All rights reserved.</li><li>Project developed by <i><b>Team A</b></i> for <b><a href="https://bcu.ac.uk" target="_blank">Innovation Project 2020 @ BCU</a></b>.</li><li>Design: <b><a href="http://html5up.net">HTML5 UP</a></b>.</li>
+								<li>&copy; <?php echo date("Y"); ?> - <b><a href="index.php">OpenNearMe</a></b>. All rights reserved.</li><li>Project developed by <b><a href="https://ip.innovationfest.co.uk/student/team-a/">Team A</a></b> for <b><a href="https://innovationfest.co.uk/innovation/" target="_blank">Innovation Fest 2020</a></b>.</li><li>Design: <b><a href="http://html5up.net">HTML5 UP</a></b>.</li>
 								<p></p>
 							</ul>
 						</div>

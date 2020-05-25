@@ -102,7 +102,7 @@
 					<section id="footer">
 						<div class="inner">
 							<h2 class="major">The World's Greatest Privacy Policy</h2>
-							<p>We do not store your data, period. We also do not use cookies to track you. <br>We physically cannot. We have nowhere to store it. We do not even have a server database to store it. <br>So even if the Queen asked nicely to see your data, we would not have anything to show.</p>		
+							<p>The request for your location is only used to suggest close places for autocomplete, and it is never stored. <br>We do not store your data, period. We also do not use cookies to track you. <br>We physically cannot. We have nowhere to store it. We do not even have a server database to store it. <br>So even if the Queen asked nicely to see your data, we would not have anything to show.</p>		
 							<h2 class="major">Hello!</h2>
 							<p>We are here to help and answer any questions you might have. Also, we are open to any feedback & suggestions. <br>We look forward to hearing from you!</p>
 							<p><strong>INFO: The Contact-us form is currently <font color="orange">disabled</font>.<br>For any queries please e-mail us at <font color="orange">bogdan.mihalcea@icloud.com</font>.</strong></p>

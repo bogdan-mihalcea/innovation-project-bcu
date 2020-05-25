@@ -73,19 +73,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') // check if form was submitted
 					if ($places->opening_hours->open_now == "true"){
 						if ($places_details->formatted_phone_number == ""){
 							//echo "<td>".$places->vicinity."<br><strong><font color='green'>Open now!</font></strong> <a href='https://maps.google.com/maps?saddr=".$address."&daddr=".$places->vicinity."' target='_blank'>Get directions.</a></td>";
-							echo "<td>".$places->vicinity."<br><strong><font color='green'>Open now!</font></strong> <a href='".$places_details->url."' target='_blank'>Get directions.</a></td>";
+							echo "<td>".$places->vicinity."<br><strong><font color='green'>Open now!</font></strong> <a href='".$places_details->url."' target='_blank'>Get directions</a>.</td>";
 
 						}
 						else {
 							//echo "<td>".$places->vicinity."<br><strong><font color='green'>Open now!</font></strong> <a href='https://maps.google.com/maps?saddr=".$address."&daddr=".$places->vicinity."' target='_blank'>Get directions.</a> Contact: <a href='tel:".$places_details->formatted_phone_number."'>".$places_details->formatted_phone_number."</a></td>";
-							echo "<td>".$places->vicinity."<br><strong><font color='green'>Open now!</font></strong> <a href='".$places_details->url."' target='_blank'>Get directions.</a> Contact: <a href='tel:".$places_details->formatted_phone_number."'>".$places_details->formatted_phone_number."</a></td>";
+							echo "<td>".$places->vicinity."<br><strong><font color='green'>Open now!</font></strong> <a href='".$places_details->url."' target='_blank'>Get directions</a>. Contact: <a href='tel:".$places_details->formatted_phone_number."'>".$places_details->formatted_phone_number."</a>.</td>";
 						}
 					}
 					else if ($places_details->opening_hours->weekday_text[6] == ""){
-						echo "<td>Sorry. We could not find any information about this location.<br>But, you can still click <a href='".$places_details->url."' target='_blank'>here</a> to visit Google Maps.</td>";
+						echo "<td>Sorry. We could not find any information about this location.<br>As an alternative, you can still click <a href='".$places_details->url."' target='_blank'>here</a> to visit Google Maps.</td>";
 					}
 					else {
-						echo "<td>".$places->vicinity."<br>Sorry. This place is <strong><font color='orange'>closed right now.</font></strong></td>";
+						echo "<td>".$places->vicinity."<br>Sorry. This place is <strong><font color='orange'>closed right now</font></strong>.</td>";
 					}
 					// iterating and checking the current day to show the correct opening hours
 					for ($day=1; $day<8; $day++){

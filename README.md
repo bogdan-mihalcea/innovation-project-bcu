@@ -21,7 +21,7 @@ The task was to develop something that will assist people during the Pandemic. I
 
 
 ## Features
-- Ability to input an address and information about places within a 2km radius
+- Ability to input an address and get information about places within a 2km radius
 - Available places to search: pharmacies, supermarkets, convenience stores
 
 
